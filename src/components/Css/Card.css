@@ -1,0 +1,82 @@
+.GreenCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px;
+    margin: 32px 0px;
+    border-left: #03b898 4px solid;
+    border-radius: 4px;
+    height: 87px;
+    width: 450px;
+  }
+  .RedCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px;
+    height: 87px;
+    margin: 32px 0px;
+    border-left: #e9ecef 4px solid;
+    border-radius: 4px;
+    height: 87px;
+    width: 450px;
+  }
+  .EnterType {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .DescriptionCard {
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .CardType {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868e96;
+  }
+  .CardValue {
+    margin-top: 20px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212529;
+
+    padding: 0 45px 0 0;
+  }
+
+  .Trash {
+    display: flex;
+  }
+
+  .TrashBtn {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-color: #e9ecef;
+    width: 20px;
+    height: 21px;
+    border: transparent;
+    background-position: center;
+    border-radius: 4px;
+    margin-top: 20px;
+
+    background-image: url(/src/components/images/trash.png);
+  }
+  .TrashBtn:hover {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-color: #868e96;
+  }

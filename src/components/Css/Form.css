@@ -1,0 +1,169 @@
+.DivForm {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 351px;
+    width: 363px;
+    left: 258px;
+    top: 127px;
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0px 4px 32px -12px rgb(0 0 0 / 25%);
+  }
+  .Description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212529;
+  }
+  .InputDescription {
+    bottom: 21%;
+    background: lightgray;
+    border: 2px solid #f8f9fa;
+    box-sizing: border-box;
+    height: 52px;
+    width: auto;
+    left: 0px;
+    border-radius: 8px;
+    margin: 12px 0px;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .InputDescription:focus {
+    background: #ffffff;
+    border: 2px solid #212529;
+  }
+
+  .DivValue {
+    width: 125px;
+    display: flex;
+  }
+
+  .DivValue2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DivValue3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Class {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .ValueDescription {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .InputValue {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+    width: 100px;
+    height: 28px;
+  }
+  
+  .InputValue label {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .InputValue input {
+    height: 48px;
+    width: 128px;
+    left: 0px;
+    top: 31px;
+    border-radius: 8px;
+  }
+  .SelectClass {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 94px;
+
+    padding: 0 0 0 198px;
+    margin: -92 0 0 0;
+  }
+  .SelectClass label {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #212529;
+    text-align: left;
+  }
+  .Options {
+    height: 39px;
+    width: 150px;
+    left: 0px;
+    top: 31px;
+    border-radius: 8px;
+    border:#212529 5px;
+    background: #f8f9fa;
+    padding: 0px 16px;
+    color: #868e96;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 14px 0 0 50px
+  }
+
+  .FormBtn {
+    height: 48px;
+    width: auto;
+    left: 24.5px;
+    top: 265px;
+    border-radius: 8px;
+    border: transparent;
+    background: #fd377e;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: 33px;
+    margin-bottom: 52px;
+  }
+  .FormBtn:hover {
+    background: #e34981;
+  }
+  
